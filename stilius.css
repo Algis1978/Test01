@@ -2,7 +2,16 @@
     margin:auto;
 }
 body {
-    
+    background-color: rgb(126, 222, 222);
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d7/Zinnia_elegans_with_Bombus_01.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+section {
+    background-color: orangered;
+    color: rgba(255, 255, 255, 0.9);https://upload.wikimedia.org/wikipedia/commons/d/d7/Zinnia_elegans_with_Bombus_01.JPG
 }
 h1, figcaption {
     text-align: center;
@@ -10,14 +19,39 @@ h1, figcaption {
 figure {
     background-color: rgb(199, 208, 235);
     width:170px;
+    border-radius: 10px;
 }
 img {
     width:150px;
     margin:10px;
 }
 a {
-
+    color: rgb(2, 26, 46);
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: -2px -8px 3px white, 2px 3px 5px red;
 }
 p {
-    
+    text-indent: 24px;
+    width: 60%;
+    margin: auto;
+    padding: 8px;
+    border:20px ridge rgb(186, 186, 205) ;
+    border-radius: 18px;
+    border-left: 20px solid red;
+    border-right: 20px dashed blue;
+}
+table {
+    padding: 20px;
+    border: 4px solid blue;
+    border-radius: 40px;
+}
+td {
+    background-color: beige;
+}
+em {
+    padding: 8px;
+    border: 2px solid orange;
+    outline: 6px dotted rgb(21, 154, 172);
+    outline-offset: 6px;
 }
