@@ -10,6 +10,9 @@ body {
     background-attachment: fixed;
 }
 section {
+    text-indent: 1em;
+    font-family:Dancing Script, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;
+    font-weight:700;
     background-color: orangered;
     color: rgba(255, 255, 255, 0.9);https://upload.wikimedia.org/wikipedia/commons/d/d7/Zinnia_elegans_with_Bombus_01.JPG
 }
@@ -54,4 +57,17 @@ em {
     border: 2px solid orange;
     outline: 6px dotted rgb(21, 154, 172);
     outline-offset: 6px;
+}
+span {
+    color: aqua;
+    text-shadow: 2px 1px 1px rgb(255, 255, 255);
+    text-decoration: line-through;
+    text-decoration-color: blueviolet;
+}
+.myicon{
+    background-image: url("P.jpg");
+    background-size: cover;
+    height: 1em;
+    width: 1em;
+    display:inline-block;
 }
